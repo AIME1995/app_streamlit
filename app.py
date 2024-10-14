@@ -4,7 +4,7 @@ import streamlit as st
 import plotly.express as px 
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt  
-
+# python -m streamlit run app.py
 
 st.title("Streamlit Analysis of tweets of US Airlines")
 st.sidebar.title("Streamlit Analysis of tweets of US Airlines")
